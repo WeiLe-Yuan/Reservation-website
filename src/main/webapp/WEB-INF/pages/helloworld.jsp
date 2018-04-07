@@ -8,10 +8,7 @@
 <title>欢迎页</title>
 
 <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-<link rel="stylesheet"
-	href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
-	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-	crossorigin="anonymous">
+<link rel="stylesheet" href="jq/bootstrap-3.3.7/css/bootstrap.min.css">
 
 <link rel="stylesheet" type="text/css"
 	href="js/navbar/fonts/iconfont.css">
@@ -29,6 +26,9 @@
 	position: absolute;
 }
 
+.iframe {
+	overflow: hidden;
+}
 </style>
 </head>
 
@@ -53,7 +53,7 @@
 						<li><a class="menu-item" href="javascript:;"
 							data-href="b.html"><span>销量统计</span></a></li>
 						<li><a class="menu-item" href="javascript:;"
-							data-href="c.html"><span>分类管理</span></a></li>
+							data-href="test"><span>分类管理</span></a></li>
 					</ul></li>
 				<li class="nav-item"><a href="javascript:;"><i
 						class="my-icon nav-icon icon_2"></i><span>食品管理</span><i
@@ -77,7 +77,8 @@
 
 
 		<div class="right-iframe">
-			<iframe id="content" src='' width="100%" height="100%"></iframe>
+			<iframe id="content" src='welcome.html' width="100%" height="100%"
+				frameborder="0" scrolling="auto"></iframe>
 		</div>
 
 	</div>
